@@ -1,0 +1,51 @@
+
+/* CSS BASICS*/
+body{
+    background-color:goldenrod;
+}
+h1{
+    color: greenyellow;
+    text-align: center;
+}
+p{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    p.dotted {outline-style: dotted;}
+
+}
+
+#myid{
+    color: green;
+    font-size: 150%;
+    width: 300px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+      
+}
+
+.text{
+    color: orange;
+    text-align: center;
+    font-size: 200%;
+    width: 300px;
+    padding: 25px;
+}
+
+*{
+    color: black;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+      
+}
+/*tables*/
+table, th, td {
+    border: 10px solid;
+  }
