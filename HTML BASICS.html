@@ -2,10 +2,64 @@
 <html>
     <head>
         <title>HTML BASICSS</title>
+        <link rel="stylesheet" href="css basics.css">
+        <style>
+            div.ex1 {
+              width: 500px;
+              margin: auto;
+              border: 3px solid #73AD21;
+            }
+            
+            div.ex2 {
+              max-width: 500px;
+              margin: auto;
+              border: 3px solid #1f2714;
+            }
+            div.relative {
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 3px solid #73AD21;
+} 
+
+
+div {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow: visible;
+
+}
+  
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+  
+  
+  </style>
+
     </head>
-    <body style="background-color: aqua;">
+    <body style="background-color:whitesmoke;">
+        
         <h1 style="font-family: 'Courier New', Courier, monospace;">I AM DOING INTERNSHIP AT BLUESCRIPT</h1> <!--size of font -->
         <h2>FRONTEND<br>BACKEND<br>UI/UX</h2>  <!-- break statement-->
+
+        <h2>CSS Max-width</h2><!--max width-->
+
+<div class="ex1">This div element has width: 500px;</div>
+<br>
+
+<div class="ex2">This div element has max-width: 500px;</div>
+
+<p><strong>Tip:</strong> Drag the browser window to smaller than 500px wide, to see the difference between 
+the two divs!</p>
+<div class="relative">This div element has position: relative;
+
 
 <!--HEADING, PARAGRAPH AND STYLE, FORMATTING-->    
 
@@ -17,8 +71,8 @@
         <p>In css i am going to give different style</p>
         <h6 style="font-family: Arial, Helvetica, sans-serif;">I AM GOING TO LEARN <mark>JAVASCRIPT</mark></h6>
         <p> <b>In javascript i am going to make responsive website </b></p>
-        <hr> <!--heading-->>
-        <h1 style="font-size:60px;">INTERNSHIP</h1><!--style-->>
+        <hr> <!--heading-->
+        <h1 style="font-size:60px;">INTERNSHIP</h1><!--style-->
         
         <p>I am doing internship at blueskript, there are frontend,backend and <del>ui/ux</del><ins>app</ins> developement.
         I am learning frontend developement, in frontend i am going learn about html,css,javascript</p><!-- paragraph-->
@@ -27,6 +81,7 @@
 <!---->       
         I am doing internship at blueskript, there are frontend,backend and <del>ui/ux</del><ins>app</ins> developement.
         I am learning frontend developement, in frontend i am going learn about html,css,javascript
+        
 
 
 <!--QUOTATION-->
@@ -43,7 +98,7 @@
 <!--tables-->
     <style>
         table, th, td {
-        border:1px solid black;
+        border:10px solid black;
       }
     </style>
 
@@ -91,6 +146,45 @@
     <div>
     In css i am going to give different style
     In javascript i am going to make responsive website</div>
+
+<!--classes-->
+<style>
+    .text{
+        color: purple;
+        font-size: 200%;
+    }
+    </style>    
+    
+    In html i am going to impliment<span class="text"> different things</span>.
+        <div>
+        In css i am going to give different style
+        In javascript i am going to make <span class="text">responsive website</span></div>
+
+
+
+<!--id-->>
+<style>
+    #myid {
+      background-color: lightblue;
+      color: black;
+      padding: 40px;
+      text-align: center;
+    }
+    </style>  
+    <h1 id="myid">My Cities</h1> 
+    
+    In html i am going to impliment<span class="text"> different things</span>.
+    <div>
+    In css i am going to give different style
+    In javascript i am going to make <span class="text">responsive website</span></div>
+
+
+<!--iframe-->
+
+<iframe src="1into.html" height="200" width="300" title="Iframe Example"></iframe>
+
+
+
 
     </body>    
 </html>    
