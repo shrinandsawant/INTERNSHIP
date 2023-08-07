@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+        
+        </script>
+        </head>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+
+<!--js intro-->
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+
+<!--where to-->
+<p id="demo"></p>
+<script>
+    document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+
+<h2>Demo JavaScript</h2>
+
+
+<p id="demo"> Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script src="myScript.js"></script>
+
+
+
+<!--output-->
+<script>
+    document.getElementById("demo").innerHTML=5+5;
+</script>    
+<button type="button" onclick="document.write(10*10)">multiply</button>
+
+<script>
+    window.alert("alert executed succesfully");//altert
+</script>  
+
+<!--syntax-->
+<script>
+//1.variable
+var a=6;
+var b=9;
+var c=a+b;    
+document.write(c);
+
+//2.let
+let x = 5;
+let y = 6;
+let z = x + y;
+document.write(z);
+
+//3.constant
+const PI = 3.14159265359;
+document.write(PI);
+
+</script>    
+
+<!--1.operators
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+String Operators
+Logical Operators
+Bitwise Operators
+Ternary Operators
+
+2.datatypes
+1. String
+2. Number
+3. Bigint
+4. Boolean
+5. Undefined
+6. Null
+7. Symbol
+8. Object
+
+3.object datatypes
+1. An object
+2. An array
+3. A date
+-->
+
+<!--functions-->
+<script>
+    
+    var a=4, b=3;
+    function myFunction(a, b) {
+    return a * b;
+    }
+    document.write(x);
+
+</script>
+
+<!--object-->
+<script>
+    //create a object
+    const person={
+        firstname:"shrinand",
+        lastname:"sawant",
+        age:23,
+    
+    };
+
+    document.getElementById("demo").innerHTML =
+    person.firstname + " is " + person.age + " years old.";
+</script>   
+
+<!--event-->
+<button onclick="document.getElementById('demo').innerHTML=date()">what is time right now---</button>
+<button onclick="this.innerHTML = Date()">The time is?</button>
+<button onclick="displayDate()">The time is?</button>
+<p id="demo"></p>
+
+<!--string-->
+<p id="demo"></p>
+
+<script>
+let text = "Apple, Banana, Kiwi";
+let str = "Apple, Banana, Kiwi";
+let text1 = "Please visit north goa";
+let newText = text.replace("north goa", "south goa");
+let part1 = str.substring(7, 13);
+let part = text.slice(7)
+document.getElementById("demo").innerHTML = part;
+document.getElementById("demo").innerHTML = part1;
+document.getElementById("demo").innerHTML = newText;
+</script>
+
+<!--numbers-->
+<script>
+    var x = 10;
+    var y = 20;
+    document.getElementById("demo").innerHTML =
+    "The result is: " + x + y;
+</script>
+<script>
+    let x = 9007199254740995n;
+    let y = 9007199254740995n;
+    let z = x * y;
+    
+    document.getElementById("demo").innerHTML = z; 
+</script>
+
+
+
+
+
+
+</body>
+</html>
