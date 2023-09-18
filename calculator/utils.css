@@ -1,0 +1,23 @@
+ .text-center{
+    text-align: center;
+ }
+
+ .bg-orangered{
+    background: orangered;
+ }
+
+ .mx-auto{
+    margin: auto;
+ }
+
+.flex{
+    display: flex;
+}
+.flex-direction{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+
+}
