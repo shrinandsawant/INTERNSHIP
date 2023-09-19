@@ -105,7 +105,8 @@ function App() {
               </i> 
   
 
-            </li>          ))}
+            </li>
+          ))}
         </ul>
 <div className="task-info">
   <p className="total-tasks">Total tasks: {todos.length}</p>
@@ -116,6 +117,7 @@ function App() {
 
       </div>
     </div>
-  );}
+  );
+}
 
 export default App;
